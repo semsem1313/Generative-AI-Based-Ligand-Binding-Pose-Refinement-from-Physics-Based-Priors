@@ -45,7 +45,7 @@ covered.
 ├── .env        # template for environment 
 ├── requirements.txt      # Python dependencies
 ├── docs/
-│   └── background.md     # resources
+│   └── project_background.md     # resources
 └── reports/
     └── report_1.docx     # weekly progress reports
 ```
@@ -62,7 +62,7 @@ cp .env.example .env         # then fill in any required values
 ## Resources
  
 Key references and reading material used for this project are tracked in
-[`docs/background.md`](docs/project_background.md), including:
+[`docs/project_background.md`](docs/project_background.md), including:
  
 - Protein structure databases (RCSB PDB)
 - Small molecule databases (PubChem, ChEMBL)
