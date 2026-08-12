@@ -72,3 +72,9 @@ Key references and reading material used for this project are tracked in
 ## Notes
  
 This README will be updated as the project progresses through each phase.
+
+## Next Tasks 
+
+- Add images of those docx file in images folder
+- Update Report 1 and work on it again
+- Git commit
