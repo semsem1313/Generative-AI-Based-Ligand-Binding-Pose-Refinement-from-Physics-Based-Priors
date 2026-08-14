@@ -29,7 +29,7 @@ covered.
  
 ## Roadmap
  
-- [o] Report 1: Proteins, substrates, and molecular docking basics
+- [ ] Proteins, Ligand-Protein Interactions, and Molecular docking basics
 - [ ] Learn flow matching and diffusion models
 - [ ] Learn geometric deep learning fundamentals
 - [ ] Survey existing generative AI docking approaches
