@@ -20,9 +20,9 @@ jobs:
 
       - name: Convert all docx reports to PDF
         run: |
-          mkdir -p "reports/pdf"
-          for file in "reports/docx"/*.docx; do
-            soffice --headless --convert-to pdf --outdir "reports/pdf" "$file"
+          mkdir -p reports/pdf
+          for file in reports/docx/*.docx; do
+            soffice --headless --convert-to pdf --outdir reports/pdf "$file"
           done
 
       - name: Commit converted files
