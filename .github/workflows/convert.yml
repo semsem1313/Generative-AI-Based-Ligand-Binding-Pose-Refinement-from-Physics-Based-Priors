@@ -20,8 +20,13 @@ jobs:
 
       - name: Convert all docx reports to PDF
         run: |
+          # Enable nullglob so the loop safely skips if no matching files are found
+          shopt -s nullglob
+
           mkdir -p reports/pdf
+
           for file in reports/docx/*.docx; do
+            echo "Converting $file..."
             soffice --headless --convert-to pdf --outdir reports/pdf "$file"
           done
 
