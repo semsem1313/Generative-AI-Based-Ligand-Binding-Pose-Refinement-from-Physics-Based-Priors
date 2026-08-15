@@ -3,8 +3,10 @@ name: Convert Reports
 on:
   push:
     branches: [main]
-    paths:
-      - 'reports/docx/*.docx'
+
+  workflow dispatch:
+    # paths:
+    #   - 'reports/docx/*.docx'
 
 permissions:
   contents: write
