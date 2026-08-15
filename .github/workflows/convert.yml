@@ -6,6 +6,9 @@ on:
     paths:
       - 'reports/*.docx'
 
+permissions:
+  contents: write
+
 jobs:
   convert:
     runs-on: ubuntu-latest
