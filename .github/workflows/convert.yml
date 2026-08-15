@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'reports/docs/*.docx'
+      - 'reports/docx/*.docx'
 
 permissions:
   contents: write
