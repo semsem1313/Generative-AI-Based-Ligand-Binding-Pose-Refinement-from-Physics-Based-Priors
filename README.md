@@ -4,7 +4,7 @@
 
 **Guide:** Prof. Saumajit Dutta
 
-**Status:** 🟡 In Progress — Week 1 (Learning Phase)
+**Status:** 🟡 In Progress — Week 2 (Learning Phase)
  
 ## Project Overview
  
@@ -14,18 +14,9 @@ physics-based priors from classical molecular docking approaches. The goal is
 to combine the accuracy of physics-based scoring functions with the
 flexibility and speed of modern generative models.
  
-## Current Goal (Week 1)
+## Current Goal (Week 2)
  
-Before diving into modeling, the focus this week is on building foundational
-understanding of:
- 
-- Proteins, amino acids, and protein structure
-- Substrates and protein–ligand interactions
-- Molecular docking (physics-based methods, e.g. AutoDock Vina and its
-  derivatives)
-Progress and notes from this phase are being written up in
-[`reports/report_1.docx`](reports/report_1.docx), updated as topics are
-covered.
+
  
 ## Roadmap
  
@@ -42,12 +33,12 @@ covered.
 .
 ├── README.md
 ├── .gitignore
-├── .env        # template for environment 
-├── requirements.txt      # Python dependencies
+├── .env                        # template for environment 
+├── requirements.txt            # Python dependencies
 ├── docs/
-│   └── project_background.md     # resources
+│   └── project_background.md   # resources
 └── reports/
-    └── report_1.docx     # weekly progress reports
+    └── report_1.docx         # weekly progress reports
 ```
  
 ## Setup
@@ -73,8 +64,3 @@ Key references and reading material used for this project are tracked in
  
 This README will be updated as the project progresses through each phase.
 
-## Next Tasks 
-
-- Add images of those docx file in images folder
-- Update Report 1 and work on it again
-- Git commit

@@ -55,3 +55,4 @@ Reading list and resources shared by the project guide, organized by topic.
 8. [Accelerating AutoDock4 with GPUs and Gradient-Based Local Search](https://doi.org/10.1021/acs.jctc.0c01006) (2021)
 9. [Uni-Dock: GPU-Accelerated Docking Enables Ultralarge Virtual Screening](https://doi.org/10.1021/acs.jctc.2c01145) (2022)
 10. [Vina-GPU 2.0: Further Accelerating AutoDock Vina and Its Derivatives with Graphics Processing Units](https://doi.org/10.1021/acs.jcim.2c01504) (2023)
+
