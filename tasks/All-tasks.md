@@ -1,6 +1,6 @@
 ## Tasks
 
-**Protein sequence similarity and clustering**
+- [x] **Protein sequence similarity and clustering** - [x]
 
 - Download 20-30 protein sequences belonging to 3-4 different protein families from
 UniProt.
@@ -10,7 +10,7 @@ UniProt.
 - Compare whether the computational clusters correspond to the known protein
 families.
 
-**Protein contact-map generation**
+- [ ] **Protein contact-map generation**
 
 - Download 5-10 protein structures from the PDB.
 - Calculate all pairwise Ca distances.
@@ -20,7 +20,7 @@ cutoff, for example 8 Å.
 - Compare contact maps of predominantly a-helical and predominantly B-sheet
 proteins.
 
-**Ligand similarity using molecular fingerprints**
+- [ ] **Ligand similarity using molecular fingerprints**
 
 - Download 50-100 ligands associated with one or more protein targets from
 ChEMBL or GPCRdb.
@@ -30,7 +30,7 @@ ChEMBL or GPCRdb.
 - Visualize the similarity matrix as a heatmap.
 - Cluster the molecules and display representative molecules from different clusters
 
-**Principal-component analysis of protein conformations**
+- [ ] **Principal-component analysis of protein conformations**
 
 - Download several structures of the same protein, for example structures representing different functional states.
 - Align the structures using their Ca atoms.
