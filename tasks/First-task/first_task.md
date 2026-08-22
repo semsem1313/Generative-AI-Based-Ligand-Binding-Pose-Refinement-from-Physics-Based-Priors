@@ -64,6 +64,8 @@ Spent a lot of time debugging mainly understanding the `Align` functions, workin
 | P00772 | Protease |
 | P00761 | Protease |
 
+![alt text](task1-result-1.png "Task 1 result")
+
 ### Result 2 — `task1-result-2`
 
 5 families, 4 proteins each: Kinases, Lysozyme, Cytochromes, Immunoglobulins, Protease.
@@ -90,3 +92,5 @@ Spent a lot of time debugging mainly understanding the `Align` functions, workin
 | P00766 | Protease |
 | P00772 | Protease |
 | P00761 | Protease |
+
+![alt text](task1-result-2.png "Task 2 result")
