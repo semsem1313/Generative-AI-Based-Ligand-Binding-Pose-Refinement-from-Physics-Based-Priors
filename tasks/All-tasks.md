@@ -1,6 +1,6 @@
 ## Tasks
 
-- [x] **Protein sequence similarity and clustering** - [x]
+- [x] **Protein sequence similarity and clustering**
 
 - Download 20-30 protein sequences belonging to 3-4 different protein families from
 UniProt.
@@ -10,12 +10,11 @@ UniProt.
 - Compare whether the computational clusters correspond to the known protein
 families.
 
-- [ ] **Protein contact-map generation**
+- [x] **Protein contact-map generation**
 
 - Download 5-10 protein structures from the PDB.
 - Calculate all pairwise Ca distances.
-- Define two residues as being in contact when their Ca atoms are within a chosen
-cutoff, for example 8 Å.
+- Define two residues as being in contact when their Ca atoms are within a chosen cutoff, for example 8 Å.
 - Construct and plot the residue-residue contact map for each protein.
 - Compare contact maps of predominantly a-helical and predominantly B-sheet
 proteins.
