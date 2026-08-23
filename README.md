@@ -2,7 +2,7 @@
  
 **Author:** Samarth M. Pawar
 
-**Guide:** Prof. Saumajit Dutta
+**Guide:** [Prof. Saumajit Dutta](https://github.com/soumajit2706) 
 
 **Status:** 🟡 In Progress — Week 2 (Learning Phase)
  
@@ -33,12 +33,13 @@ In this week my job is to make a literature review on the various scoring functi
 .
 ├── README.md
 ├── .gitignore
-├── .env                        # template for environment 
-├── requirements.txt            # Python dependencies
+├── .env          # template for environment 
+├── requirements.txt     # Python dependencies
+├── pdb_files
+├── tasks
 ├── docs/
 │   └── project_background.md   # resources
-└── reports/
-    └── report_1.docx         # weekly progress reports
+└── reports/                 # weekly progress reports
 ```
  
 ## Setup
@@ -63,6 +64,3 @@ Key references and reading material used for this project are tracked in
 ## Notes
  
 This README will be updated as the project progresses through each phase.
-
-Author: Samarth
-Prof: Soumajit Dutta
