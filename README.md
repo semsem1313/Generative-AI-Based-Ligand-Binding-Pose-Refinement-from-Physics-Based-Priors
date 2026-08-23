@@ -15,12 +15,12 @@ to combine the accuracy of physics-based scoring functions with the
 flexibility and speed of modern generative models.
  
 ## Current Goal (Week 2)
- 
+In this week my job is to make a literature review on the various scoring functions and figure out which one is the best for this project, Also I have been assigned with some tasks by my Prof. which I'm currently working on.
 
  
 ## Roadmap
  
-- [ ] Proteins, Ligand-Protein Interactions, and Molecular docking basics
+- [x] Proteins, Ligand-Protein Interactions, and Molecular docking basics
 - [ ] Learn flow matching and diffusion models
 - [ ] Learn geometric deep learning fundamentals
 - [ ] Survey existing generative AI docking approaches
@@ -64,3 +64,5 @@ Key references and reading material used for this project are tracked in
  
 This README will be updated as the project progresses through each phase.
 
+Author: Samarth
+Prof: Soumajit Dutta
