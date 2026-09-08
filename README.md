@@ -37,6 +37,7 @@ This week, my job was to perform redocking on the complex 1HSG, which is the HIV
 ├── requirements.txt     # Python dependencies
 ├── pdb_files       #contains the pdb_files used in task2
 ├── tasks          #all tasks
+├── dock-files      #all docking fies & py scripts
 ├── docs/
 │   └── project_background.md   # resources
 └── reports                 # weekly progress reports
