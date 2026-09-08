@@ -1,0 +1,819 @@
+MODEL 1
+REMARK VINA RESULT:     -10.6      0.000      0.000
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1517  and  C31_1555
+REMARK    2  A    between atoms: C2_1519  and  C3_1520
+REMARK       I    between atoms: C3_1520  and  N2_1522
+REMARK    3  A    between atoms: N2_1522  and  C4_1523
+REMARK    4  A    between atoms: N3_1527  and  C10_1530
+REMARK    5  A    between atoms: C10_1530  and  C11_1531
+REMARK    6  A    between atoms: C11_1531  and  C12_1533
+REMARK    7  A    between atoms: C12_1533  and  C13_1534
+REMARK    8  A    between atoms: C13_1534  and  C21_1542
+REMARK    9  A    between atoms: C13_1534  and  C14_1535
+REMARK   10  A    between atoms: C14_1535  and  C15_1536
+REMARK       I    between atoms: C21_1542  and  N4_1544
+REMARK   11  A    between atoms: N4_1544  and  C22_1545
+REMARK   12  A    between atoms: C31_1555  and  C32_1556
+ROOT
+ATOM      1  C11 MK1 B 902      13.903  23.787   5.267  1.00  0.00     0.174 C
+ATOM      2  O2  MK1 B 902      15.106  24.278   4.757  1.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C12 MK1 B 902      14.118  23.454   6.755  1.00  0.00     0.045 C
+BRANCH   3   4
+ATOM      4  C13 MK1 B 902      15.271  22.540   7.193  1.00  0.00     0.088 C
+BRANCH   4   5
+ATOM      5  C21 MK1 B 902      15.231  21.190   6.487  1.00  0.00     0.252 C
+ATOM      6  N4  MK1 B 902      16.406  20.735   6.060  1.00  0.00    -0.233 NA
+ATOM      7  O3  MK1 B 902      14.179  20.535   6.436  1.00  0.00    -0.271 OA
+BRANCH   6   8
+ATOM      8  C22 MK1 B 902      16.589  19.347   5.674  1.00  0.00     0.159 C
+ATOM      9  C30 MK1 B 902      16.471  18.976   4.172  1.00  0.00    -0.001 A
+ATOM     10  C29 MK1 B 902      15.666  19.409   3.166  1.00  0.00    -0.003 A
+ATOM     11  C25 MK1 B 902      17.506  17.883   3.782  1.00  0.00    -0.022 A
+ATOM     12  C28 MK1 B 902      15.773  18.904   1.877  1.00  0.00    -0.000 A
+ATOM     13  C27 MK1 B 902      16.721  17.928   1.534  1.00  0.00    -0.000 A
+ATOM     14  C26 MK1 B 902      17.597  17.410   2.494  1.00  0.00    -0.004 A
+ATOM     15  C24 MK1 B 902      18.220  17.672   5.094  1.00  0.00     0.061 C
+ATOM     16  C23 MK1 B 902      17.976  18.836   6.027  1.00  0.00     0.183 C
+ATOM     17  O4  MK1 B 902      18.930  19.881   5.905  1.00  0.00    -0.221 OA
+ENDBRANCH   6   8
+ENDBRANCH   4   5
+BRANCH   4  18
+ATOM     18  C14 MK1 B 902      15.285  22.307   8.714  1.00  0.00     0.036 C
+BRANCH  18  19
+ATOM     19  C15 MK1 B 902      16.468  21.528   9.158  1.00  0.00    -0.022 A
+ATOM     20  C16 MK1 B 902      17.775  21.892   8.828  1.00  0.00    -0.004 A
+ATOM     21  C17 MK1 B 902      18.849  21.115   9.235  1.00  0.00    -0.000 A
+ATOM     22  C18 MK1 B 902      18.600  19.959   9.978  1.00  0.00    -0.000 A
+ATOM     23  C19 MK1 B 902      17.291  19.595  10.318  1.00  0.00    -0.000 A
+ATOM     24  C20 MK1 B 902      16.221  20.387   9.902  1.00  0.00    -0.004 A
+ENDBRANCH  18  19
+ENDBRANCH   4  18
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  25
+ATOM     25  C10 MK1 B 902      13.052  24.954   4.763  1.00  0.00     0.131 C
+BRANCH  25  26
+ATOM     26  N3  MK1 B 902      11.695  24.588   4.407  1.00  0.00    -0.357 N
+ATOM     27  C8  MK1 B 902      11.652  24.223   2.969  1.00  0.00     0.133 C
+ATOM     28  C9  MK1 B 902      10.292  23.975   2.350  1.00  0.00     0.274 C
+ATOM     29  N1  MK1 B 902       9.241  24.756   2.829  1.00  0.00     0.146 N
+ATOM     30  C1  MK1 B 902       9.365  24.805   4.311  1.00  0.00     0.282 C
+ATOM     31  C2  MK1 B 902      10.578  25.418   4.981  1.00  0.00     0.192 C
+BRANCH  29  32
+ATOM     32  C31 MK1 B 902       7.924  24.420   2.276  1.00  0.00     0.278 C
+BRANCH  32  33
+ATOM     33  C32 MK1 B 902       6.655  24.491   3.134  1.00  0.00     0.030 A
+ATOM     34  C36 MK1 B 902       5.999  23.309   3.403  1.00  0.00     0.001 A
+ATOM     35  C35 MK1 B 902       4.835  23.368   4.166  1.00  0.00     0.020 A
+ATOM     36  C34 MK1 B 902       4.367  24.602   4.629  1.00  0.00     0.099 A
+ATOM     37  N5  MK1 B 902       4.969  25.839   4.402  1.00  0.00    -0.243 NA
+ATOM     38  C33 MK1 B 902       6.133  25.694   3.630  1.00  0.00     0.097 A
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+BRANCH  31  39
+ATOM     39  C3  MK1 B 902      10.430  25.258   6.470  1.00  0.00     0.273 C
+ATOM     40  O1  MK1 B 902      10.281  24.146   6.960  1.00  0.00    -0.269 OA
+ATOM     41  N2  MK1 B 902      10.454  26.359   7.195  1.00  0.00    -0.240 NA
+BRANCH  41  42
+ATOM     42  C4  MK1 B 902      10.408  26.534   8.611  1.00  0.00     0.088 C
+ATOM     43  C7  MK1 B 902       9.327  25.783   9.260  1.00  0.00     0.025 C
+ATOM     44  C5  MK1 B 902      10.062  28.012   8.870  1.00  0.00     0.025 C
+ATOM     45  C6  MK1 B 902      11.594  26.198   9.245  1.00  0.00     0.025 C
+ENDBRANCH  41  42
+ENDBRANCH  31  39
+ENDBRANCH  25  26
+ENDBRANCH   1  25
+TORSDOF 12
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:     -10.4      1.323      4.271
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1517  and  C31_1555
+REMARK    2  A    between atoms: C2_1519  and  C3_1520
+REMARK       I    between atoms: C3_1520  and  N2_1522
+REMARK    3  A    between atoms: N2_1522  and  C4_1523
+REMARK    4  A    between atoms: N3_1527  and  C10_1530
+REMARK    5  A    between atoms: C10_1530  and  C11_1531
+REMARK    6  A    between atoms: C11_1531  and  C12_1533
+REMARK    7  A    between atoms: C12_1533  and  C13_1534
+REMARK    8  A    between atoms: C13_1534  and  C21_1542
+REMARK    9  A    between atoms: C13_1534  and  C14_1535
+REMARK   10  A    between atoms: C14_1535  and  C15_1536
+REMARK       I    between atoms: C21_1542  and  N4_1544
+REMARK   11  A    between atoms: N4_1544  and  C22_1545
+REMARK   12  A    between atoms: C31_1555  and  C32_1556
+ROOT
+ATOM      1  C11 MK1 B 902      13.664  23.803   5.606  1.00  0.00     0.174 C
+ATOM      2  O2  MK1 B 902      13.667  24.726   6.654  1.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C12 MK1 B 902      13.196  22.448   6.167  1.00  0.00     0.045 C
+BRANCH   3   4
+ATOM      4  C13 MK1 B 902      14.200  21.311   6.405  1.00  0.00     0.088 C
+BRANCH   4   5
+ATOM      5  C21 MK1 B 902      14.853  21.402   7.779  1.00  0.00     0.252 C
+ATOM      6  N4  MK1 B 902      15.925  20.634   7.953  1.00  0.00    -0.233 NA
+ATOM      7  O3  MK1 B 902      14.456  22.230   8.613  1.00  0.00    -0.271 OA
+BRANCH   6   8
+ATOM      8  C22 MK1 B 902      16.840  20.844   9.062  1.00  0.00     0.159 C
+ATOM      9  C30 MK1 B 902      17.188  19.636   9.971  1.00  0.00    -0.001 A
+ATOM     10  C29 MK1 B 902      16.466  18.586  10.441  1.00  0.00    -0.003 A
+ATOM     11  C25 MK1 B 902      18.680  19.676  10.408  1.00  0.00    -0.022 A
+ATOM     12  C28 MK1 B 902      17.035  17.615  11.254  1.00  0.00    -0.000 A
+ATOM     13  C27 MK1 B 902      18.386  17.654  11.631  1.00  0.00    -0.000 A
+ATOM     14  C26 MK1 B 902      19.220  18.694  11.205  1.00  0.00    -0.004 A
+ATOM     15  C24 MK1 B 902      19.161  20.920   9.702  1.00  0.00     0.061 C
+ATOM     16  C23 MK1 B 902      18.210  21.302   8.591  1.00  0.00     0.183 C
+ATOM     17  O4  MK1 B 902      18.522  20.712   7.337  1.00  0.00    -0.221 OA
+ENDBRANCH   6   8
+ENDBRANCH   4   5
+BRANCH   4  18
+ATOM     18  C14 MK1 B 902      15.302  21.273   5.332  1.00  0.00     0.036 C
+BRANCH  18  19
+ATOM     19  C15 MK1 B 902      15.165  20.112   4.418  1.00  0.00    -0.022 A
+ATOM     20  C16 MK1 B 902      15.276  18.791   4.858  1.00  0.00    -0.004 A
+ATOM     21  C17 MK1 B 902      15.177  17.737   3.962  1.00  0.00    -0.000 A
+ATOM     22  C18 MK1 B 902      14.967  18.021   2.611  1.00  0.00    -0.000 A
+ATOM     23  C19 MK1 B 902      14.848  19.343   2.166  1.00  0.00    -0.000 A
+ATOM     24  C20 MK1 B 902      14.948  20.392   3.080  1.00  0.00    -0.004 A
+ENDBRANCH  18  19
+ENDBRANCH   4  18
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  25
+ATOM     25  C10 MK1 B 902      12.836  24.672   4.658  1.00  0.00     0.131 C
+BRANCH  25  26
+ATOM     26  N3  MK1 B 902      11.487  24.191   4.438  1.00  0.00    -0.357 N
+ATOM     27  C8  MK1 B 902      11.385  23.646   3.061  1.00  0.00     0.133 C
+ATOM     28  C9  MK1 B 902      10.010  23.248   2.566  1.00  0.00     0.274 C
+ATOM     29  N1  MK1 B 902       8.941  24.024   3.013  1.00  0.00     0.146 N
+ATOM     30  C1  MK1 B 902       9.146  24.265   4.466  1.00  0.00     0.282 C
+ATOM     31  C2  MK1 B 902      10.355  25.024   4.977  1.00  0.00     0.192 C
+BRANCH  29  32
+ATOM     32  C31 MK1 B 902       7.618  23.550   2.590  1.00  0.00     0.278 C
+BRANCH  32  33
+ATOM     33  C32 MK1 B 902       6.341  24.000   3.309  1.00  0.00     0.030 A
+ATOM     34  C36 MK1 B 902       5.476  23.021   3.749  1.00  0.00     0.001 A
+ATOM     35  C35 MK1 B 902       4.305  23.423   4.386  1.00  0.00     0.020 A
+ATOM     36  C34 MK1 B 902       4.038  24.785   4.557  1.00  0.00     0.099 A
+ATOM     37  N5  MK1 B 902       4.856  25.835   4.144  1.00  0.00    -0.243 NA
+ATOM     38  C33 MK1 B 902       6.013  25.347   3.514  1.00  0.00     0.097 A
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+BRANCH  31  39
+ATOM     39  C3  MK1 B 902      10.301  25.044   6.481  1.00  0.00     0.273 C
+ATOM     40  O1  MK1 B 902      10.315  23.996   7.114  1.00  0.00    -0.269 OA
+ATOM     41  N2  MK1 B 902      10.226  26.226   7.061  1.00  0.00    -0.240 NA
+BRANCH  41  42
+ATOM     42  C4  MK1 B 902      10.230  26.578   8.444  1.00  0.00     0.088 C
+ATOM     43  C7  MK1 B 902       9.177  25.915   9.221  1.00  0.00     0.025 C
+ATOM     44  C5  MK1 B 902       9.886  28.077   8.527  1.00  0.00     0.025 C
+ATOM     45  C6  MK1 B 902      11.439  26.326   9.072  1.00  0.00     0.025 C
+ENDBRANCH  41  42
+ENDBRANCH  31  39
+ENDBRANCH  25  26
+ENDBRANCH   1  25
+TORSDOF 12
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:     -10.4      1.988     10.382
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1517  and  C31_1555
+REMARK    2  A    between atoms: C2_1519  and  C3_1520
+REMARK       I    between atoms: C3_1520  and  N2_1522
+REMARK    3  A    between atoms: N2_1522  and  C4_1523
+REMARK    4  A    between atoms: N3_1527  and  C10_1530
+REMARK    5  A    between atoms: C10_1530  and  C11_1531
+REMARK    6  A    between atoms: C11_1531  and  C12_1533
+REMARK    7  A    between atoms: C12_1533  and  C13_1534
+REMARK    8  A    between atoms: C13_1534  and  C21_1542
+REMARK    9  A    between atoms: C13_1534  and  C14_1535
+REMARK   10  A    between atoms: C14_1535  and  C15_1536
+REMARK       I    between atoms: C21_1542  and  N4_1544
+REMARK   11  A    between atoms: N4_1544  and  C22_1545
+REMARK   12  A    between atoms: C31_1555  and  C32_1556
+ROOT
+ATOM      1  C11 MK1 B 902      13.790  23.103   4.882  1.00  0.00     0.174 C
+ATOM      2  O2  MK1 B 902      14.127  22.439   3.701  1.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C12 MK1 B 902      12.555  22.407   5.483  1.00  0.00     0.045 C
+BRANCH   3   4
+ATOM      4  C13 MK1 B 902      11.211  23.142   5.575  1.00  0.00     0.088 C
+BRANCH   4   5
+ATOM      5  C21 MK1 B 902      10.337  22.893   4.351  1.00  0.00     0.252 C
+ATOM      6  N4  MK1 B 902       9.267  23.676   4.246  1.00  0.00    -0.233 NA
+ATOM      7  O3  MK1 B 902      10.691  22.090   3.475  1.00  0.00    -0.271 OA
+BRANCH   6   8
+ATOM      8  C22 MK1 B 902       8.529  23.794   3.000  1.00  0.00     0.159 C
+ATOM      9  C30 MK1 B 902       6.980  23.732   3.051  1.00  0.00    -0.001 A
+ATOM     10  C29 MK1 B 902       6.100  23.009   3.792  1.00  0.00    -0.003 A
+ATOM     11  C25 MK1 B 902       6.347  24.717   2.027  1.00  0.00    -0.022 A
+ATOM     12  C28 MK1 B 902       4.727  23.153   3.640  1.00  0.00    -0.000 A
+ATOM     13  C27 MK1 B 902       4.168  24.055   2.723  1.00  0.00    -0.000 A
+ATOM     14  C26 MK1 B 902       4.983  24.847   1.907  1.00  0.00    -0.004 A
+ATOM     15  C24 MK1 B 902       7.578  25.347   1.424  1.00  0.00     0.061 C
+ATOM     16  C23 MK1 B 902       8.779  25.126   2.314  1.00  0.00     0.183 C
+ATOM     17  O4  MK1 B 902       8.975  26.148   3.281  1.00  0.00    -0.221 OA
+ENDBRANCH   6   8
+ENDBRANCH   4   5
+BRANCH   4  18
+ATOM     18  C14 MK1 B 902      11.388  24.659   5.759  1.00  0.00     0.036 C
+BRANCH  18  19
+ATOM     19  C15 MK1 B 902      11.174  25.089   7.164  1.00  0.00    -0.022 A
+ATOM     20  C16 MK1 B 902      12.206  25.582   7.966  1.00  0.00    -0.004 A
+ATOM     21  C17 MK1 B 902      11.968  25.938   9.285  1.00  0.00    -0.000 A
+ATOM     22  C18 MK1 B 902      10.677  25.792   9.798  1.00  0.00    -0.000 A
+ATOM     23  C19 MK1 B 902       9.638  25.305   8.996  1.00  0.00    -0.000 A
+ATOM     24  C20 MK1 B 902       9.893  24.953   7.671  1.00  0.00    -0.004 A
+ENDBRANCH  18  19
+ENDBRANCH   4  18
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  25
+ATOM     25  C10 MK1 B 902      15.194  23.032   5.485  1.00  0.00     0.131 C
+BRANCH  25  26
+ATOM     26  N3  MK1 B 902      15.312  22.126   6.609  1.00  0.00    -0.357 N
+ATOM     27  C8  MK1 B 902      15.415  22.916   7.861  1.00  0.00     0.133 C
+ATOM     28  C9  MK1 B 902      15.720  22.165   9.141  1.00  0.00     0.274 C
+ATOM     29  N1  MK1 B 902      16.565  21.062   9.026  1.00  0.00     0.146 N
+ATOM     30  C1  MK1 B 902      16.137  20.299   7.822  1.00  0.00     0.282 C
+ATOM     31  C2  MK1 B 902      16.190  20.916   6.438  1.00  0.00     0.192 C
+BRANCH  29  32
+ATOM     32  C31 MK1 B 902      16.760  20.304  10.267  1.00  0.00     0.278 C
+BRANCH  32  33
+ATOM     33  C32 MK1 B 902      17.274  18.859  10.249  1.00  0.00     0.030 A
+ATOM     34  C36 MK1 B 902      16.579  17.924  10.987  1.00  0.00     0.001 A
+ATOM     35  C35 MK1 B 902      17.052  16.615  10.990  1.00  0.00     0.020 A
+ATOM     36  C34 MK1 B 902      18.200  16.286  10.262  1.00  0.00     0.099 A
+ATOM     37  N5  MK1 B 902      18.958  17.168   9.494  1.00  0.00    -0.243 NA
+ATOM     38  C33 MK1 B 902      18.417  18.463   9.541  1.00  0.00     0.097 A
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+BRANCH  31  39
+ATOM     39  C3  MK1 B 902      15.637  19.920   5.455  1.00  0.00     0.273 C
+ATOM     40  O1  MK1 B 902      14.562  19.375   5.665  1.00  0.00    -0.269 OA
+ATOM     41  N2  MK1 B 902      16.368  19.665   4.387  1.00  0.00    -0.240 NA
+BRANCH  41  42
+ATOM     42  C4  MK1 B 902      16.095  18.838   3.256  1.00  0.00     0.088 C
+ATOM     43  C7  MK1 B 902      15.507  17.541   3.607  1.00  0.00     0.025 C
+ATOM     44  C5  MK1 B 902      17.452  18.487   2.618  1.00  0.00     0.025 C
+ATOM     45  C6  MK1 B 902      15.264  19.439   2.324  1.00  0.00     0.025 C
+ENDBRANCH  41  42
+ENDBRANCH  31  39
+ENDBRANCH  25  26
+ENDBRANCH   1  25
+TORSDOF 12
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:     -10.2      1.944     10.946
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1517  and  C31_1555
+REMARK    2  A    between atoms: C2_1519  and  C3_1520
+REMARK       I    between atoms: C3_1520  and  N2_1522
+REMARK    3  A    between atoms: N2_1522  and  C4_1523
+REMARK    4  A    between atoms: N3_1527  and  C10_1530
+REMARK    5  A    between atoms: C10_1530  and  C11_1531
+REMARK    6  A    between atoms: C11_1531  and  C12_1533
+REMARK    7  A    between atoms: C12_1533  and  C13_1534
+REMARK    8  A    between atoms: C13_1534  and  C21_1542
+REMARK    9  A    between atoms: C13_1534  and  C14_1535
+REMARK   10  A    between atoms: C14_1535  and  C15_1536
+REMARK       I    between atoms: C21_1542  and  N4_1544
+REMARK   11  A    between atoms: N4_1544  and  C22_1545
+REMARK   12  A    between atoms: C31_1555  and  C32_1556
+ROOT
+ATOM      1  C11 MK1 B 902      11.810  23.093   3.530  1.00  0.00     0.174 C
+ATOM      2  O2  MK1 B 902      12.076  23.653   2.280  1.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C12 MK1 B 902      10.355  22.588   3.526  1.00  0.00     0.045 C
+BRANCH   3   4
+ATOM      4  C13 MK1 B 902       9.193  23.557   3.262  1.00  0.00     0.088 C
+BRANCH   4   5
+ATOM      5  C21 MK1 B 902       9.354  24.866   4.024  1.00  0.00     0.252 C
+ATOM      6  N4  MK1 B 902       9.548  24.743   5.334  1.00  0.00    -0.233 NA
+ATOM      7  O3  MK1 B 902       9.411  25.947   3.418  1.00  0.00    -0.271 OA
+BRANCH   6   8
+ATOM      8  C22 MK1 B 902      10.042  25.849   6.138  1.00  0.00     0.159 C
+ATOM      9  C30 MK1 B 902       9.023  26.660   6.981  1.00  0.00    -0.001 A
+ATOM     10  C29 MK1 B 902       7.744  27.063   6.762  1.00  0.00    -0.003 A
+ATOM     11  C25 MK1 B 902       9.634  27.074   8.350  1.00  0.00    -0.022 A
+ATOM     12  C28 MK1 B 902       7.037  27.793   7.709  1.00  0.00    -0.000 A
+ATOM     13  C27 MK1 B 902       7.594  28.148   8.946  1.00  0.00    -0.000 A
+ATOM     14  C26 MK1 B 902       8.906  27.787   9.273  1.00  0.00    -0.004 A
+ATOM     15  C24 MK1 B 902      11.006  26.453   8.260  1.00  0.00     0.061 C
+ATOM     16  C23 MK1 B 902      11.040  25.390   7.187  1.00  0.00     0.183 C
+ATOM     17  O4  MK1 B 902      10.703  24.091   7.652  1.00  0.00    -0.221 OA
+ENDBRANCH   6   8
+ENDBRANCH   4   5
+BRANCH   4  18
+ATOM     18  C14 MK1 B 902       7.829  22.939   3.616  1.00  0.00     0.036 C
+BRANCH  18  19
+ATOM     19  C15 MK1 B 902       6.696  23.676   3.002  1.00  0.00    -0.022 A
+ATOM     20  C16 MK1 B 902       5.483  23.879   3.663  1.00  0.00    -0.004 A
+ATOM     21  C17 MK1 B 902       4.438  24.541   3.037  1.00  0.00    -0.000 A
+ATOM     22  C18 MK1 B 902       4.620  25.000   1.731  1.00  0.00    -0.000 A
+ATOM     23  C19 MK1 B 902       5.837  24.806   1.066  1.00  0.00    -0.000 A
+ATOM     24  C20 MK1 B 902       6.879  24.139   1.710  1.00  0.00    -0.004 A
+ENDBRANCH  18  19
+ENDBRANCH   4  18
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  25
+ATOM     25  C10 MK1 B 902      13.036  22.179   3.536  1.00  0.00     0.131 C
+BRANCH  25  26
+ATOM     26  N3  MK1 B 902      13.728  22.123   4.808  1.00  0.00    -0.357 N
+ATOM     27  C8  MK1 B 902      13.489  23.389   5.546  1.00  0.00     0.133 C
+ATOM     28  C9  MK1 B 902      14.266  23.609   6.828  1.00  0.00     0.274 C
+ATOM     29  N1  MK1 B 902      15.563  23.100   6.862  1.00  0.00     0.146 N
+ATOM     30  C1  MK1 B 902      15.521  21.738   6.266  1.00  0.00     0.282 C
+ATOM     31  C2  MK1 B 902      15.107  21.521   4.824  1.00  0.00     0.192 C
+BRANCH  29  32
+ATOM     32  C31 MK1 B 902      16.248  23.248   8.152  1.00  0.00     0.278 C
+BRANCH  32  33
+ATOM     33  C32 MK1 B 902      16.902  22.050   8.851  1.00  0.00     0.030 A
+ATOM     34  C36 MK1 B 902      18.266  21.900   8.720  1.00  0.00     0.001 A
+ATOM     35  C35 MK1 B 902      18.863  20.803   9.336  1.00  0.00     0.020 A
+ATOM     36  C34 MK1 B 902      18.080  19.896  10.056  1.00  0.00     0.099 A
+ATOM     37  N5  MK1 B 902      16.700  19.974  10.237  1.00  0.00    -0.243 NA
+ATOM     38  C33 MK1 B 902      16.175  21.104   9.588  1.00  0.00     0.097 A
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+BRANCH  31  39
+ATOM     39  C3  MK1 B 902      15.108  20.042   4.548  1.00  0.00     0.273 C
+ATOM     40  O1  MK1 B 902      14.448  19.282   5.246  1.00  0.00    -0.269 OA
+ATOM     41  N2  MK1 B 902      15.853  19.620   3.545  1.00  0.00    -0.240 NA
+BRANCH  41  42
+ATOM     42  C4  MK1 B 902      16.010  18.312   2.996  1.00  0.00     0.088 C
+ATOM     43  C7  MK1 B 902      16.658  17.367   3.912  1.00  0.00     0.025 C
+ATOM     44  C5  MK1 B 902      16.988  18.435   1.813  1.00  0.00     0.025 C
+ATOM     45  C6  MK1 B 902      14.817  17.744   2.579  1.00  0.00     0.025 C
+ENDBRANCH  41  42
+ENDBRANCH  31  39
+ENDBRANCH  25  26
+ENDBRANCH   1  25
+TORSDOF 12
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:     -10.1      2.394      4.616
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1517  and  C31_1555
+REMARK    2  A    between atoms: C2_1519  and  C3_1520
+REMARK       I    between atoms: C3_1520  and  N2_1522
+REMARK    3  A    between atoms: N2_1522  and  C4_1523
+REMARK    4  A    between atoms: N3_1527  and  C10_1530
+REMARK    5  A    between atoms: C10_1530  and  C11_1531
+REMARK    6  A    between atoms: C11_1531  and  C12_1533
+REMARK    7  A    between atoms: C12_1533  and  C13_1534
+REMARK    8  A    between atoms: C13_1534  and  C21_1542
+REMARK    9  A    between atoms: C13_1534  and  C14_1535
+REMARK   10  A    between atoms: C14_1535  and  C15_1536
+REMARK       I    between atoms: C21_1542  and  N4_1544
+REMARK   11  A    between atoms: N4_1544  and  C22_1545
+REMARK   12  A    between atoms: C31_1555  and  C32_1556
+ROOT
+ATOM      1  C11 MK1 B 902      10.645  23.898   3.220  1.00  0.00     0.174 C
+ATOM      2  O2  MK1 B 902      11.025  23.716   1.889  1.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C12 MK1 B 902      11.913  24.194   4.041  1.00  0.00     0.045 C
+BRANCH   3   4
+ATOM      4  C13 MK1 B 902      12.020  23.743   5.505  1.00  0.00     0.088 C
+BRANCH   4   5
+ATOM      5  C21 MK1 B 902      12.453  22.287   5.625  1.00  0.00     0.252 C
+ATOM      6  N4  MK1 B 902      13.546  21.959   4.941  1.00  0.00    -0.233 NA
+ATOM      7  O3  MK1 B 902      11.873  21.518   6.407  1.00  0.00    -0.271 OA
+BRANCH   6   8
+ATOM      8  C22 MK1 B 902      14.268  20.726   5.205  1.00  0.00     0.159 C
+ATOM      9  C30 MK1 B 902      15.036  20.056   4.036  1.00  0.00    -0.001 A
+ATOM     10  C29 MK1 B 902      14.774  19.911   2.710  1.00  0.00    -0.003 A
+ATOM     11  C25 MK1 B 902      16.376  19.438   4.528  1.00  0.00    -0.022 A
+ATOM     12  C28 MK1 B 902      15.654  19.256   1.860  1.00  0.00    -0.000 A
+ATOM     13  C27 MK1 B 902      16.867  18.715   2.313  1.00  0.00    -0.000 A
+ATOM     14  C26 MK1 B 902      17.234  18.805   3.660  1.00  0.00    -0.004 A
+ATOM     15  C24 MK1 B 902      16.347  19.801   5.992  1.00  0.00     0.061 C
+ATOM     16  C23 MK1 B 902      15.359  20.916   6.245  1.00  0.00     0.183 C
+ATOM     17  O4  MK1 B 902      15.918  22.217   6.138  1.00  0.00    -0.221 OA
+ENDBRANCH   6   8
+ENDBRANCH   4   5
+BRANCH   4  18
+ATOM     18  C14 MK1 B 902      10.700  23.934   6.272  1.00  0.00     0.036 C
+BRANCH  18  19
+ATOM     19  C15 MK1 B 902      10.876  24.719   7.519  1.00  0.00    -0.022 A
+ATOM     20  C16 MK1 B 902      12.054  25.408   7.815  1.00  0.00    -0.004 A
+ATOM     21  C17 MK1 B 902      12.188  26.099   9.010  1.00  0.00    -0.000 A
+ATOM     22  C18 MK1 B 902      11.124  26.091   9.914  1.00  0.00    -0.000 A
+ATOM     23  C19 MK1 B 902       9.938  25.408   9.618  1.00  0.00    -0.000 A
+ATOM     24  C20 MK1 B 902       9.818  24.719   8.412  1.00  0.00    -0.004 A
+ENDBRANCH  18  19
+ENDBRANCH   4  18
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  25
+ATOM     25  C10 MK1 B 902       9.559  24.931   2.914  1.00  0.00     0.131 C
+BRANCH  25  26
+ATOM     26  N3  MK1 B 902       8.281  24.650   3.536  1.00  0.00    -0.357 N
+ATOM     27  C8  MK1 B 902       7.802  23.321   3.082  1.00  0.00     0.133 C
+ATOM     28  C9  MK1 B 902       6.399  22.908   3.479  1.00  0.00     0.274 C
+ATOM     29  N1  MK1 B 902       5.449  23.927   3.546  1.00  0.00     0.146 N
+ATOM     30  C1  MK1 B 902       6.086  25.083   4.232  1.00  0.00     0.282 C
+ATOM     31  C2  MK1 B 902       7.295  25.782   3.641  1.00  0.00     0.192 C
+BRANCH  29  32
+ATOM     32  C31 MK1 B 902       4.128  23.505   4.027  1.00  0.00     0.278 C
+BRANCH  32  33
+ATOM     33  C32 MK1 B 902       3.565  22.117   3.699  1.00  0.00     0.030 A
+ATOM     34  C36 MK1 B 902       3.889  21.078   4.546  1.00  0.00     0.001 A
+ATOM     35  C35 MK1 B 902       3.397  19.812   4.242  1.00  0.00     0.020 A
+ATOM     36  C34 MK1 B 902       2.604  19.626   3.106  1.00  0.00     0.099 A
+ATOM     37  N5  MK1 B 902       2.231  20.618   2.200  1.00  0.00    -0.243 NA
+ATOM     38  C33 MK1 B 902       2.765  21.862   2.576  1.00  0.00     0.097 A
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+BRANCH  31  39
+ATOM     39  C3  MK1 B 902       7.733  26.859   4.596  1.00  0.00     0.273 C
+ATOM     40  O1  MK1 B 902       8.485  27.750   4.221  1.00  0.00    -0.269 OA
+ATOM     41  N2  MK1 B 902       7.283  26.781   5.833  1.00  0.00    -0.240 NA
+BRANCH  41  42
+ATOM     42  C4  MK1 B 902       7.456  27.669   6.938  1.00  0.00     0.088 C
+ATOM     43  C7  MK1 B 902       8.856  28.034   7.181  1.00  0.00     0.025 C
+ATOM     44  C5  MK1 B 902       7.031  26.901   8.203  1.00  0.00     0.025 C
+ATOM     45  C6  MK1 B 902       6.729  28.843   6.818  1.00  0.00     0.025 C
+ENDBRANCH  41  42
+ENDBRANCH  31  39
+ENDBRANCH  25  26
+ENDBRANCH   1  25
+TORSDOF 12
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -9.9      2.362     10.897
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1517  and  C31_1555
+REMARK    2  A    between atoms: C2_1519  and  C3_1520
+REMARK       I    between atoms: C3_1520  and  N2_1522
+REMARK    3  A    between atoms: N2_1522  and  C4_1523
+REMARK    4  A    between atoms: N3_1527  and  C10_1530
+REMARK    5  A    between atoms: C10_1530  and  C11_1531
+REMARK    6  A    between atoms: C11_1531  and  C12_1533
+REMARK    7  A    between atoms: C12_1533  and  C13_1534
+REMARK    8  A    between atoms: C13_1534  and  C21_1542
+REMARK    9  A    between atoms: C13_1534  and  C14_1535
+REMARK   10  A    between atoms: C14_1535  and  C15_1536
+REMARK       I    between atoms: C21_1542  and  N4_1544
+REMARK   11  A    between atoms: N4_1544  and  C22_1545
+REMARK   12  A    between atoms: C31_1555  and  C32_1556
+ROOT
+ATOM      1  C11 MK1 B 902      11.384  23.777   3.948  1.00  0.00     0.174 C
+ATOM      2  O2  MK1 B 902      11.777  23.621   2.617  1.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C12 MK1 B 902       9.964  24.374   3.958  1.00  0.00     0.045 C
+BRANCH   3   4
+ATOM      4  C13 MK1 B 902       9.478  25.214   5.147  1.00  0.00     0.088 C
+BRANCH   4   5
+ATOM      5  C21 MK1 B 902       8.411  26.223   4.738  1.00  0.00     0.252 C
+ATOM      6  N4  MK1 B 902       7.250  26.114   5.378  1.00  0.00    -0.233 NA
+ATOM      7  O3  MK1 B 902       8.678  27.138   3.946  1.00  0.00    -0.271 OA
+BRANCH   6   8
+ATOM      8  C22 MK1 B 902       6.263  27.180   5.349  1.00  0.00     0.159 C
+ATOM      9  C30 MK1 B 902       4.769  26.808   5.543  1.00  0.00    -0.001 A
+ATOM     10  C29 MK1 B 902       4.011  25.756   5.137  1.00  0.00    -0.003 A
+ATOM     11  C25 MK1 B 902       4.028  27.888   6.381  1.00  0.00    -0.022 A
+ATOM     12  C28 MK1 B 902       2.664  25.660   5.460  1.00  0.00    -0.000 A
+ATOM     13  C27 MK1 B 902       2.009  26.634   6.228  1.00  0.00    -0.000 A
+ATOM     14  C26 MK1 B 902       2.695  27.761   6.694  1.00  0.00    -0.004 A
+ATOM     15  C24 MK1 B 902       5.148  28.857   6.670  1.00  0.00     0.061 C
+ATOM     16  C23 MK1 B 902       6.491  28.198   6.454  1.00  0.00     0.183 C
+ATOM     17  O4  MK1 B 902       7.012  27.561   7.610  1.00  0.00    -0.221 OA
+ENDBRANCH   6   8
+ENDBRANCH   4   5
+BRANCH   4  18
+ATOM     18  C14 MK1 B 902      10.630  25.962   5.841  1.00  0.00     0.036 C
+BRANCH  18  19
+ATOM     19  C15 MK1 B 902      10.592  25.818   7.318  1.00  0.00    -0.022 A
+ATOM     20  C16 MK1 B 902       9.482  25.311   7.996  1.00  0.00    -0.004 A
+ATOM     21  C17 MK1 B 902       9.476  25.229   9.381  1.00  0.00    -0.000 A
+ATOM     22  C18 MK1 B 902      10.601  25.664  10.085  1.00  0.00    -0.000 A
+ATOM     23  C19 MK1 B 902      11.719  26.166   9.409  1.00  0.00    -0.000 A
+ATOM     24  C20 MK1 B 902      11.710  26.242   8.016  1.00  0.00    -0.004 A
+ENDBRANCH  18  19
+ENDBRANCH   4  18
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  25
+ATOM     25  C10 MK1 B 902      11.714  22.341   4.358  1.00  0.00     0.131 C
+BRANCH  25  26
+ATOM     26  N3  MK1 B 902      12.831  22.229   5.275  1.00  0.00    -0.357 N
+ATOM     27  C8  MK1 B 902      12.483  22.905   6.549  1.00  0.00     0.133 C
+ATOM     28  C9  MK1 B 902      13.579  23.055   7.585  1.00  0.00     0.274 C
+ATOM     29  N1  MK1 B 902      14.868  23.264   7.097  1.00  0.00     0.146 N
+ATOM     30  C1  MK1 B 902      15.069  22.326   5.960  1.00  0.00     0.282 C
+ATOM     31  C2  MK1 B 902      14.215  22.407   4.710  1.00  0.00     0.192 C
+BRANCH  29  32
+ATOM     32  C31 MK1 B 902      15.915  23.307   8.125  1.00  0.00     0.278 C
+BRANCH  32  33
+ATOM     33  C32 MK1 B 902      16.518  22.022   8.705  1.00  0.00     0.030 A
+ATOM     34  C36 MK1 B 902      15.723  21.259   9.534  1.00  0.00     0.001 A
+ATOM     35  C35 MK1 B 902      16.272  20.102  10.080  1.00  0.00     0.020 A
+ATOM     36  C34 MK1 B 902      17.592  19.749   9.783  1.00  0.00     0.099 A
+ATOM     37  N5  MK1 B 902      18.461  20.462   8.958  1.00  0.00    -0.243 NA
+ATOM     38  C33 MK1 B 902      17.834  21.611   8.448  1.00  0.00     0.097 A
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+BRANCH  31  39
+ATOM     39  C3  MK1 B 902      14.622  21.294   3.784  1.00  0.00     0.273 C
+ATOM     40  O1  MK1 B 902      14.654  21.477   2.574  1.00  0.00    -0.269 OA
+ATOM     41  N2  MK1 B 902      14.922  20.135   4.337  1.00  0.00    -0.240 NA
+BRANCH  41  42
+ATOM     42  C4  MK1 B 902      15.402  18.926   3.748  1.00  0.00     0.088 C
+ATOM     43  C7  MK1 B 902      15.135  17.733   4.560  1.00  0.00     0.025 C
+ATOM     44  C5  MK1 B 902      16.937  19.027   3.702  1.00  0.00     0.025 C
+ATOM     45  C6  MK1 B 902      14.894  18.694   2.480  1.00  0.00     0.025 C
+ENDBRANCH  41  42
+ENDBRANCH  31  39
+ENDBRANCH  25  26
+ENDBRANCH   1  25
+TORSDOF 12
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -9.9      2.059     10.827
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1517  and  C31_1555
+REMARK    2  A    between atoms: C2_1519  and  C3_1520
+REMARK       I    between atoms: C3_1520  and  N2_1522
+REMARK    3  A    between atoms: N2_1522  and  C4_1523
+REMARK    4  A    between atoms: N3_1527  and  C10_1530
+REMARK    5  A    between atoms: C10_1530  and  C11_1531
+REMARK    6  A    between atoms: C11_1531  and  C12_1533
+REMARK    7  A    between atoms: C12_1533  and  C13_1534
+REMARK    8  A    between atoms: C13_1534  and  C21_1542
+REMARK    9  A    between atoms: C13_1534  and  C14_1535
+REMARK   10  A    between atoms: C14_1535  and  C15_1536
+REMARK       I    between atoms: C21_1542  and  N4_1544
+REMARK   11  A    between atoms: N4_1544  and  C22_1545
+REMARK   12  A    between atoms: C31_1555  and  C32_1556
+ROOT
+ATOM      1  C11 MK1 B 902      12.683  21.463   6.232  1.00  0.00     0.174 C
+ATOM      2  O2  MK1 B 902      11.786  21.092   7.235  1.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C12 MK1 B 902      11.879  22.109   5.089  1.00  0.00     0.045 C
+BRANCH   3   4
+ATOM      4  C13 MK1 B 902      12.520  23.172   4.185  1.00  0.00     0.088 C
+BRANCH   4   5
+ATOM      5  C21 MK1 B 902      12.398  24.573   4.771  1.00  0.00     0.252 C
+ATOM      6  N4  MK1 B 902      11.309  24.791   5.504  1.00  0.00    -0.233 NA
+ATOM      7  O3  MK1 B 902      13.322  25.391   4.650  1.00  0.00    -0.271 OA
+BRANCH   6   8
+ATOM      8  C22 MK1 B 902      11.204  25.939   6.388  1.00  0.00     0.159 C
+ATOM      9  C30 MK1 B 902       9.868  26.727   6.418  1.00  0.00    -0.001 A
+ATOM     10  C29 MK1 B 902       8.966  27.068   5.461  1.00  0.00    -0.003 A
+ATOM     11  C25 MK1 B 902       9.533  27.205   7.860  1.00  0.00    -0.022 A
+ATOM     12  C28 MK1 B 902       7.820  27.792   5.764  1.00  0.00    -0.000 A
+ATOM     13  C27 MK1 B 902       7.522  28.206   7.070  1.00  0.00    -0.000 A
+ATOM     14  C26 MK1 B 902       8.385  27.912   8.132  1.00  0.00    -0.004 A
+ATOM     15  C24 MK1 B 902      10.699  26.644   8.635  1.00  0.00     0.061 C
+ATOM     16  C23 MK1 B 902      11.387  25.553   7.846  1.00  0.00     0.183 C
+ATOM     17  O4  MK1 B 902      10.863  24.254   8.081  1.00  0.00    -0.221 OA
+ENDBRANCH   6   8
+ENDBRANCH   4   5
+BRANCH   4  18
+ATOM     18  C14 MK1 B 902      11.921  23.170   2.768  1.00  0.00     0.036 C
+BRANCH  18  19
+ATOM     19  C15 MK1 B 902      10.463  23.453   2.768  1.00  0.00    -0.022 A
+ATOM     20  C16 MK1 B 902       9.517  22.526   3.209  1.00  0.00    -0.004 A
+ATOM     21  C17 MK1 B 902       8.163  22.819   3.157  1.00  0.00    -0.000 A
+ATOM     22  C18 MK1 B 902       7.762  24.058   2.653  1.00  0.00    -0.000 A
+ATOM     23  C19 MK1 B 902       8.708  24.994   2.216  1.00  0.00    -0.000 A
+ATOM     24  C20 MK1 B 902      10.066  24.684   2.276  1.00  0.00    -0.004 A
+ENDBRANCH  18  19
+ENDBRANCH   4  18
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  25
+ATOM     25  C10 MK1 B 902      13.621  22.233   7.164  1.00  0.00     0.131 C
+BRANCH  25  26
+ATOM     26  N3  MK1 B 902      14.827  21.512   7.519  1.00  0.00    -0.357 N
+ATOM     27  C8  MK1 B 902      14.998  21.550   8.993  1.00  0.00     0.133 C
+ATOM     28  C9  MK1 B 902      16.292  21.002   9.562  1.00  0.00     0.274 C
+ATOM     29  N1  MK1 B 902      17.438  21.196   8.792  1.00  0.00     0.146 N
+ATOM     30  C1  MK1 B 902      17.082  20.893   7.380  1.00  0.00     0.282 C
+ATOM     31  C2  MK1 B 902      16.034  21.700   6.640  1.00  0.00     0.192 C
+BRANCH  29  32
+ATOM     32  C31 MK1 B 902      18.652  20.569   9.329  1.00  0.00     0.278 C
+BRANCH  32  33
+ATOM     33  C32 MK1 B 902      18.592  19.248  10.104  1.00  0.00     0.030 A
+ATOM     34  C36 MK1 B 902      18.816  19.293  11.464  1.00  0.00     0.001 A
+ATOM     35  C35 MK1 B 902      18.782  18.094  12.171  1.00  0.00     0.020 A
+ATOM     36  C34 MK1 B 902      18.530  16.895  11.497  1.00  0.00     0.099 A
+ATOM     37  N5  MK1 B 902      18.294  16.761  10.130  1.00  0.00    -0.243 NA
+ATOM     38  C33 MK1 B 902      18.344  18.011   9.491  1.00  0.00     0.097 A
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+BRANCH  31  39
+ATOM     39  C3  MK1 B 902      15.863  21.109   5.267  1.00  0.00     0.273 C
+ATOM     40  O1  MK1 B 902      15.651  21.835   4.304  1.00  0.00    -0.269 OA
+ATOM     41  N2  MK1 B 902      15.938  19.797   5.167  1.00  0.00    -0.240 NA
+BRANCH  41  42
+ATOM     42  C4  MK1 B 902      15.887  18.953   4.017  1.00  0.00     0.088 C
+ATOM     43  C7  MK1 B 902      15.009  19.459   2.957  1.00  0.00     0.025 C
+ATOM     44  C5  MK1 B 902      15.237  17.629   4.458  1.00  0.00     0.025 C
+ATOM     45  C6  MK1 B 902      17.132  18.715   3.455  1.00  0.00     0.025 C
+ENDBRANCH  41  42
+ENDBRANCH  31  39
+ENDBRANCH  25  26
+ENDBRANCH   1  25
+TORSDOF 12
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -9.9      1.759      3.211
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1517  and  C31_1555
+REMARK    2  A    between atoms: C2_1519  and  C3_1520
+REMARK       I    between atoms: C3_1520  and  N2_1522
+REMARK    3  A    between atoms: N2_1522  and  C4_1523
+REMARK    4  A    between atoms: N3_1527  and  C10_1530
+REMARK    5  A    between atoms: C10_1530  and  C11_1531
+REMARK    6  A    between atoms: C11_1531  and  C12_1533
+REMARK    7  A    between atoms: C12_1533  and  C13_1534
+REMARK    8  A    between atoms: C13_1534  and  C21_1542
+REMARK    9  A    between atoms: C13_1534  and  C14_1535
+REMARK   10  A    between atoms: C14_1535  and  C15_1536
+REMARK       I    between atoms: C21_1542  and  N4_1544
+REMARK   11  A    between atoms: N4_1544  and  C22_1545
+REMARK   12  A    between atoms: C31_1555  and  C32_1556
+ROOT
+ATOM      1  C11 MK1 B 902      15.277  22.919   8.265  1.00  0.00     0.174 C
+ATOM      2  O2  MK1 B 902      16.364  23.754   8.530  1.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C12 MK1 B 902      15.335  21.737   9.249  1.00  0.00     0.045 C
+BRANCH   3   4
+ATOM      4  C13 MK1 B 902      16.564  20.818   9.297  1.00  0.00     0.088 C
+BRANCH   4   5
+ATOM      5  C21 MK1 B 902      17.160  20.586   7.914  1.00  0.00     0.252 C
+ATOM      6  N4  MK1 B 902      16.308  20.143   6.993  1.00  0.00    -0.233 NA
+ATOM      7  O3  MK1 B 902      18.332  20.908   7.670  1.00  0.00    -0.271 OA
+BRANCH   6   8
+ATOM      8  C22 MK1 B 902      16.628  20.187   5.577  1.00  0.00     0.159 C
+ATOM      9  C30 MK1 B 902      17.377  18.980   4.952  1.00  0.00    -0.001 A
+ATOM     10  C29 MK1 B 902      18.361  18.159   5.403  1.00  0.00    -0.003 A
+ATOM     11  C25 MK1 B 902      16.862  18.686   3.514  1.00  0.00    -0.022 A
+ATOM     12  C28 MK1 B 902      18.863  17.125   4.624  1.00  0.00    -0.000 A
+ATOM     13  C27 MK1 B 902      18.380  16.861   3.334  1.00  0.00    -0.000 A
+ATOM     14  C26 MK1 B 902      17.370  17.647   2.770  1.00  0.00    -0.004 A
+ATOM     15  C24 MK1 B 902      15.792  19.739   3.363  1.00  0.00     0.061 C
+ATOM     16  C23 MK1 B 902      15.381  20.279   4.714  1.00  0.00     0.183 C
+ATOM     17  O4  MK1 B 902      14.312  19.565   5.317  1.00  0.00    -0.221 OA
+ENDBRANCH   6   8
+ENDBRANCH   4   5
+BRANCH   4  18
+ATOM     18  C14 MK1 B 902      16.248  19.455   9.938  1.00  0.00     0.036 C
+BRANCH  18  19
+ATOM     19  C15 MK1 B 902      17.390  18.918  10.721  1.00  0.00    -0.022 A
+ATOM     20  C16 MK1 B 902      18.419  19.729  11.204  1.00  0.00    -0.004 A
+ATOM     21  C17 MK1 B 902      19.485  19.178  11.899  1.00  0.00    -0.000 A
+ATOM     22  C18 MK1 B 902      19.512  17.798  12.107  1.00  0.00    -0.000 A
+ATOM     23  C19 MK1 B 902      18.478  16.982  11.631  1.00  0.00    -0.000 A
+ATOM     24  C20 MK1 B 902      17.412  17.550  10.934  1.00  0.00    -0.004 A
+ENDBRANCH  18  19
+ENDBRANCH   4  18
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  25
+ATOM     25  C10 MK1 B 902      14.230  24.032   8.320  1.00  0.00     0.131 C
+BRANCH  25  26
+ATOM     26  N3  MK1 B 902      13.334  24.061   7.181  1.00  0.00    -0.357 N
+ATOM     27  C8  MK1 B 902      13.930  23.269   6.076  1.00  0.00     0.133 C
+ATOM     28  C9  MK1 B 902      13.234  23.312   4.730  1.00  0.00     0.274 C
+ATOM     29  N1  MK1 B 902      12.633  24.520   4.382  1.00  0.00     0.146 N
+ATOM     30  C1  MK1 B 902      11.916  25.022   5.584  1.00  0.00     0.282 C
+ATOM     31  C2  MK1 B 902      12.659  25.367   6.859  1.00  0.00     0.192 C
+BRANCH  29  32
+ATOM     32  C31 MK1 B 902      11.889  24.494   3.117  1.00  0.00     0.278 C
+BRANCH  32  33
+ATOM     33  C32 MK1 B 902      10.441  23.992   3.053  1.00  0.00     0.030 A
+ATOM     34  C36 MK1 B 902      10.237  22.629   3.046  1.00  0.00     0.001 A
+ATOM     35  C35 MK1 B 902       8.926  22.167   2.968  1.00  0.00     0.020 A
+ATOM     36  C34 MK1 B 902       7.868  23.079   2.896  1.00  0.00     0.099 A
+ATOM     37  N5  MK1 B 902       7.987  24.468   2.897  1.00  0.00    -0.243 NA
+ATOM     38  C33 MK1 B 902       9.336  24.852   2.979  1.00  0.00     0.097 A
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+BRANCH  31  39
+ATOM     39  C3  MK1 B 902      11.652  25.782   7.898  1.00  0.00     0.273 C
+ATOM     40  O1  MK1 B 902      11.958  25.798   9.083  1.00  0.00    -0.269 OA
+ATOM     41  N2  MK1 B 902      10.448  26.104   7.468  1.00  0.00    -0.240 NA
+BRANCH  41  42
+ATOM     42  C4  MK1 B 902       9.313  26.596   8.181  1.00  0.00     0.088 C
+ATOM     43  C7  MK1 B 902       8.172  26.916   7.317  1.00  0.00     0.025 C
+ATOM     44  C5  MK1 B 902       9.721  27.946   8.799  1.00  0.00     0.025 C
+ATOM     45  C6  MK1 B 902       8.866  25.730   9.166  1.00  0.00     0.025 C
+ENDBRANCH  41  42
+ENDBRANCH  31  39
+ENDBRANCH  25  26
+ENDBRANCH   1  25
+TORSDOF 12
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -9.8      2.294      4.420
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1517  and  C31_1555
+REMARK    2  A    between atoms: C2_1519  and  C3_1520
+REMARK       I    between atoms: C3_1520  and  N2_1522
+REMARK    3  A    between atoms: N2_1522  and  C4_1523
+REMARK    4  A    between atoms: N3_1527  and  C10_1530
+REMARK    5  A    between atoms: C10_1530  and  C11_1531
+REMARK    6  A    between atoms: C11_1531  and  C12_1533
+REMARK    7  A    between atoms: C12_1533  and  C13_1534
+REMARK    8  A    between atoms: C13_1534  and  C21_1542
+REMARK    9  A    between atoms: C13_1534  and  C14_1535
+REMARK   10  A    between atoms: C14_1535  and  C15_1536
+REMARK       I    between atoms: C21_1542  and  N4_1544
+REMARK   11  A    between atoms: N4_1544  and  C22_1545
+REMARK   12  A    between atoms: C31_1555  and  C32_1556
+ROOT
+ATOM      1  C11 MK1 B 902      11.029  24.002   3.205  1.00  0.00     0.174 C
+ATOM      2  O2  MK1 B 902      11.461  24.038   1.878  1.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C12 MK1 B 902      12.265  24.157   4.111  1.00  0.00     0.045 C
+BRANCH   3   4
+ATOM      4  C13 MK1 B 902      12.237  23.658   5.563  1.00  0.00     0.088 C
+BRANCH   4   5
+ATOM      5  C21 MK1 B 902      12.636  22.191   5.673  1.00  0.00     0.252 C
+ATOM      6  N4  MK1 B 902      13.665  21.822   4.913  1.00  0.00    -0.233 NA
+ATOM      7  O3  MK1 B 902      12.095  21.450   6.506  1.00  0.00    -0.271 OA
+BRANCH   6   8
+ATOM      8  C22 MK1 B 902      14.369  20.572   5.141  1.00  0.00     0.159 C
+ATOM      9  C30 MK1 B 902      15.127  19.925   3.952  1.00  0.00    -0.001 A
+ATOM     10  C29 MK1 B 902      14.862  19.822   2.623  1.00  0.00    -0.003 A
+ATOM     11  C25 MK1 B 902      16.458  19.274   4.425  1.00  0.00    -0.022 A
+ATOM     12  C28 MK1 B 902      15.733  19.180   1.754  1.00  0.00    -0.000 A
+ATOM     13  C27 MK1 B 902      16.938  18.609   2.190  1.00  0.00    -0.000 A
+ATOM     14  C26 MK1 B 902      17.307  18.654   3.539  1.00  0.00    -0.004 A
+ATOM     15  C24 MK1 B 902      16.435  19.595   5.899  1.00  0.00     0.061 C
+ATOM     16  C23 MK1 B 902      15.463  20.716   6.185  1.00  0.00     0.183 C
+ATOM     17  O4  MK1 B 902      16.041  22.012   6.116  1.00  0.00    -0.221 OA
+ENDBRANCH   6   8
+ENDBRANCH   4   5
+BRANCH   4  18
+ATOM     18  C14 MK1 B 902      10.858  23.848   6.219  1.00  0.00     0.036 C
+BRANCH  18  19
+ATOM     19  C15 MK1 B 902      10.932  24.621   7.484  1.00  0.00    -0.022 A
+ATOM     20  C16 MK1 B 902       9.834  24.787   8.330  1.00  0.00    -0.004 A
+ATOM     21  C17 MK1 B 902       9.940  25.549   9.484  1.00  0.00    -0.000 A
+ATOM     22  C18 MK1 B 902      11.165  26.149   9.784  1.00  0.00    -0.000 A
+ATOM     23  C19 MK1 B 902      12.271  25.979   8.942  1.00  0.00    -0.000 A
+ATOM     24  C20 MK1 B 902      12.149  25.209   7.785  1.00  0.00    -0.004 A
+ENDBRANCH  18  19
+ENDBRANCH   4  18
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  25
+ATOM     25  C10 MK1 B 902       9.953  25.074   3.031  1.00  0.00     0.131 C
+BRANCH  25  26
+ATOM     26  N3  MK1 B 902       8.650  24.695   3.542  1.00  0.00    -0.357 N
+ATOM     27  C8  MK1 B 902       8.308  23.340   3.041  1.00  0.00     0.133 C
+ATOM     28  C9  MK1 B 902       6.910  22.824   3.317  1.00  0.00     0.274 C
+ATOM     29  N1  MK1 B 902       5.887  23.772   3.310  1.00  0.00     0.146 N
+ATOM     30  C1  MK1 B 902       6.380  24.962   4.053  1.00  0.00     0.282 C
+ATOM     31  C2  MK1 B 902       7.580  25.753   3.570  1.00  0.00     0.192 C
+BRANCH  29  32
+ATOM     32  C31 MK1 B 902       4.565  23.251   3.676  1.00  0.00     0.278 C
+BRANCH  32  33
+ATOM     33  C32 MK1 B 902       3.281  23.849   3.089  1.00  0.00     0.030 A
+ATOM     34  C36 MK1 B 902       2.273  24.186   3.967  1.00  0.00     0.001 A
+ATOM     35  C35 MK1 B 902       1.096  24.711   3.438  1.00  0.00     0.020 A
+ATOM     36  C34 MK1 B 902       0.967  24.878   2.056  1.00  0.00     0.099 A
+ATOM     37  N5  MK1 B 902       1.933  24.564   1.102  1.00  0.00    -0.243 NA
+ATOM     38  C33 MK1 B 902       3.086  24.042   1.714  1.00  0.00     0.097 A
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+BRANCH  31  39
+ATOM     39  C3  MK1 B 902       7.858  26.847   4.564  1.00  0.00     0.273 C
+ATOM     40  O1  MK1 B 902       8.552  27.806   4.251  1.00  0.00    -0.269 OA
+ATOM     41  N2  MK1 B 902       7.337  26.709   5.768  1.00  0.00    -0.240 NA
+BRANCH  41  42
+ATOM     42  C4  MK1 B 902       7.359  27.589   6.892  1.00  0.00     0.088 C
+ATOM     43  C7  MK1 B 902       6.924  26.956   8.141  1.00  0.00     0.025 C
+ATOM     44  C5  MK1 B 902       6.308  28.683   6.626  1.00  0.00     0.025 C
+ATOM     45  C6  MK1 B 902       8.602  28.159   7.118  1.00  0.00     0.025 C
+ENDBRANCH  41  42
+ENDBRANCH  31  39
+ENDBRANCH  25  26
+ENDBRANCH   1  25
+TORSDOF 12
+ENDMDL

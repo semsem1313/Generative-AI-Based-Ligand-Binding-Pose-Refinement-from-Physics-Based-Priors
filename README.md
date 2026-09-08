@@ -4,7 +4,7 @@
 
 **Guide:** [Prof. Saumajit Dutta](https://github.com/soumajit2706) 
 
-**Status:** 🟡 In Progress — Week 2 (Learning Phase)
+**Status:** 🟡 In Progress — Week 3 (Hands On Phase)
  
 ## Project Overview
  
@@ -14,15 +14,15 @@ physics-based priors from classical molecular docking approaches. The goal is
 to combine the accuracy of physics-based scoring functions with the
 flexibility and speed of modern generative models.
  
-## Current Goal (Week 2)
-In this week my job is to make a literature review on the various scoring functions and figure out which one is the best for this project, Also I have been assigned with some tasks by my Prof. which I'm currently working on.
+## Current Goal (Week 3)
+This week, my job was to perform redocking on the complex 1HSG, which is the HIV protein-ligand complex. This redocking was done to And how the RMSD values produced and the later-on structure produced through docking aligns exactly similar to the crystalline structure of the complex or not?
 
  
 ## Roadmap
  
 - [x] Proteins, Ligand-Protein Interactions, and Molecular docking basics
-- [ ] Learn flow matching and diffusion models
-- [ ] Learn geometric deep learning fundamentals
+- [x] Write a literature review on scoring functions and finish assigned tasks
+- [ ] Perform Re-Docking on 1HSG complex
 - [ ] Survey existing generative AI docking approaches
 - [ ] Define physics-based priors to incorporate into the model
 - [ ] Prototype pose refinement pipeline
@@ -35,11 +35,11 @@ In this week my job is to make a literature review on the various scoring functi
 ├── .gitignore
 ├── .env          # template for environment 
 ├── requirements.txt     # Python dependencies
-├── pdb_files
-├── tasks
+├── pdb_files       #contains the pdb_files used in task2
+├── tasks          #all tasks
 ├── docs/
 │   └── project_background.md   # resources
-└── reports/                 # weekly progress reports
+└── reports                 # weekly progress reports
 ```
  
 ## Setup
