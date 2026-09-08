@@ -22,7 +22,7 @@ This week, my job was to perform redocking on the complex 1HSG, which is the HIV
  
 - [x] Proteins, Ligand-Protein Interactions, and Molecular docking basics
 - [x] Write a literature review on scoring functions and finish assigned tasks
-- [ ] Perform Re-Docking on 1HSG complex
+- [x] Perform Re-Docking on 1HSG complex
 - [ ] Survey existing generative AI docking approaches
 - [ ] Define physics-based priors to incorporate into the model
 - [ ] Prototype pose refinement pipeline
